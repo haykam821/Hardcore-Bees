@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "io.github.haykam821.hardcorebees.mixin",
+	"compatibilityLevel": "JAVA_8",
+	"client": [
+		"ClientBeeEntityMixin"
+	],
+	"server": [
+		"ServerBeeEntityMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

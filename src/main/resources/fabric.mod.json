@@ -1,0 +1,22 @@
+{
+	"schemaVersion": 1,
+	"id": "hardcorebees",
+	"version": "${version}",
+	"name": "Hardcore Bees",
+	"description": "Makes bee stings cause singleplayer worlds to be deleted and players to be banned from servers.",
+	"authors": [
+		"haykam821"
+	],
+	"contact": {
+		"homepage": "https://github.com/haykam821/Hardcore-Bees#readme",
+		"issues": "https://github.com/haykam821/Hardcore-Bees/issues"
+	},
+	"mixins": [
+		"hardcorebees.mixin.json"
+	],
+	"license": "MIT",
+	"icon": "assets/hardcorebees/icon.png",
+	"depends": {
+		"fabricloader": ">=0.4.0"
+	}
+}
